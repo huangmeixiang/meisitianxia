@@ -1,0 +1,129 @@
+*{
+	padding: 0; margin: 0;
+}
+/*------------食材banner-----------*/
+.shicai_banner a img{
+	width: 990px;
+	height: 90px;
+}
+/*-------------------品种------*/
+.pingzhong{
+	width: 990px;
+	
+}
+.pingzhong div:nth-child(2){width: 990px;height: 354px; position: relative;}
+.pingzhong div:nth-child(2) span{position: absolute; top: 200px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(3){width: 990px;height: 425px; position: relative;}
+.pingzhong div:nth-child(3) span{position: absolute; top: 230px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(4){width: 990px;height: 496px; position: relative;}
+.pingzhong div:nth-child(4) span{position: absolute; top: 265px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(5){width: 990px;height: 212px; position: relative;}
+.pingzhong div:nth-child(5) span{position: absolute; top: 125px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(6){width: 990px;height: 354px; position: relative;}
+.pingzhong div:nth-child(6) span{position: absolute; top: 195px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(7){width: 990px;height: 141px; position: relative;}
+.pingzhong div:nth-child(7) span{position: absolute; top: 85px;left: 65px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:nth-child(8){width: 990px;height: 141px; position: relative;}
+.pingzhong div:nth-child(8) span{position: absolute; top: 85px;left: 70px; color: #666666;font-size: 14px;display: none; }
+.pingzhong div:hover span{display: block;}
+.pingzhong .fenlei h3{
+	font: 20px "微软雅黑";
+	color: #666666;
+	background: #F8F8F8;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+}
+.pingzhong div:nth-child(1) h3{
+	width: 184px;
+	height: 213px;
+	line-height: 216px;
+	text-align: center;
+	
+	
+
+	
+}
+.pingzhong div:nth-child(2) h3{
+	width: 184px;
+	height: 354px;
+	line-height: 354px;
+	text-align: center;
+
+}
+.pingzhong div:nth-child(3) h3{
+	width: 184px;
+	height: 425px;
+	line-height: 425px;
+	text-align: center;
+	
+	
+
+	
+}
+
+.pingzhong div:nth-child(4) h3{
+	width: 184px;
+	height: 496px;
+	line-height: 496px;
+	text-align: center;
+	
+
+}
+
+.pingzhong div:nth-child(5) h3{
+	width: 184px;
+	height: 212px;
+	line-height: 212px;
+	text-align: center;
+	
+
+}
+.pingzhong div:nth-child(6) h3{
+	width: 184px;
+	height: 354px;
+	line-height: 354px;
+	text-align: center;
+
+}
+.pingzhong div:nth-child(7) h3{
+	width: 184px;
+	height: 141px;
+	line-height: 141px;
+	text-align: center;
+
+}
+.pingzhong div:nth-child(8) h3{
+	width: 184px;
+	height: 141px;
+	line-height: 141px;
+	text-align: center;
+
+}
+.fenlei{
+	border-top: 1px solid #EEEEEE;
+	margin-top: 35px;
+	overflow: hidden;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.pingzhong .fenlei ul li a{
+	float: left;
+	display:block;
+	width:133px;
+	padding: 23px 0px;
+	text-align: center;
+	font: 18px "微软雅黑";
+	color: #333333;
+	border-right: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	margin: 0px;
+	cursor:pointer;
+	
+}
+.pingzhong .fenlei ul li a:hover{
+	background: #F8F8F8;
+}
+.pingzhong .fenlei ul li a:last-child{
+	border-right: 0px;
+}

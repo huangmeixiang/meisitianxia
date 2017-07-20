@@ -1,0 +1,65 @@
+/*新闻内容-----------------*/
+.huati_content {
+	height:180px ;
+	width:648px ;
+	
+	padding-top: 25px;
+
+
+	
+}
+.huati_content  .hauti_img{	margin-right: 20px;}
+.huati_content .hauti_img a span{width: 180px;
+	height: 180px;
+	display: block;
+	overflow: hidden;
+	
+	}
+	.huati_content .hauti_img a img{
+	width: 180px;
+	height: 180px;
+
+}
+	.huati_content .hauti_img a:hover img{transform: scale(1.1);}
+
+
+
+.huati_content .hauti_wenzhan a{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	color: #333333;
+	font-size: 20px;
+
+	
+}
+.huati_content .hauti_wenzhan a:hover{color: #FF6767; text-decoration: underline;}
+.huati_content .hauti_wenzhan{width: 440px;height: 180px;}
+.huati_content .hauti_wenzhan span{
+	display: block;
+	height: 22px;
+	line-height: 22px;
+}
+.huati_content  .hauti_wenzhan span:nth-child(2){
+	font-size: 13px;
+	color: #999999;
+	margin-top: 10px;
+}
+.huati_content  .hauti_wenzhan span:nth-child(3){
+	font-size:14px;
+	color: #666666;
+}
+.huati_content .hauti_wenzhan .end_anniu{
+	display: block;
+	width: 109px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #999999;
+	border-radius: 15px;
+	color: #999999;
+	margin-top: 55px;
+	
+}
+/*返回按钮*/
+    #top{position:fixed;right:100px;bottom:50px; width:58px; height:58px; background:url(../image/meishi/top.png) no-repeat; background-size: 100%;}

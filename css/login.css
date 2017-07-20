@@ -1,0 +1,104 @@
+*{padding: 0px;margin: 0px;border: none;}
+ .clearfix{clear:both;}
+ .fl{float:left;}
+ .fr{float:right;}
+
+ #list{width:100%;height:100%;position:fixed;}
+ #list a, #list img{width:100%;height:100%;position: absolute; display: block;}
+.login_box{width:530px;height:280px;background:rgba(255,255,255,0.8);position: absolute; top:30%;left:30%;border-radius:5px;  z-index:999}
+.login_title a{float:left;display:block;width:265px;/*height:50px;line-height:50px;*/padding:10px 0px;text-align:center;color:#333;font:20px "微软雅黑";margin-bottom:16px;}
+.login_title a:hover{text-decoration:underline;}
+.zc_content{width:530px;height:230px;margin-top:40px;position:absolute;;top:20px;}    
+.zc_content .zc_content_l{width:300px; height:200px;padding-left:30px;/*border:1px solid black;*/}   
+.zc_content .zc_content_r{width:200px; height:200px;}                                                                                                                    
+.zc_content .zc_content_l p{font-size:13px;margin:20px 0;color:#333;}       
+.zc_content .zc_content_l div a{display:block;width:40px;text-align:center;color:#333;float:left;}
+.zc_content .zc_content_l div a:nth-child(2){margin:0 50px;}
+
+.zc_content_r img{height:110px;padding:0 48px;border-left:1px solid gray;}
+
+.zc_content_r p{width:200px;text-align:center;color:#333;}
+.zc_content_r i{display:block;width: 108px;height:1px;position:absolute;right: 42px;top:0px;background:white; box-shadow: 0 0 3px red;animation:e 5s linear infinite;/*transform:translateY(0px)*/;
+}
+@-moz-keyframes zc{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}
+@-webkit-keyframes zc{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}
+@-ms-keyframes zc{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}
+@keyframes zc{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}
+/*@keyframes zc{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}*/
+ .on{color:#fff;/*background:rgba(0,0,0,0.6);*/}
+ /*-------------------登录页面----*/
+.login_l{width:327px; height:200px;}
+.login_l label{font-size:15px;color:#333;margin-left:8px;}
+.login_l ul{width:305px;height:66px;border-radius:4px;border:1px solid gray;margin:0 auto;}
+.login_l ul li{width:305px;height:33px;line-height:33px;}
+.login_l ul li:last-child{border-top:1px solid gray;}
+.login_l ul li input{width:200px;height:22px;background: none;}
+.login_l ul li:last-child input{width:240px;}
+.login_l p{height:43px;width:270px;line-height:43px;padding-left:15px;}
+.login_l p a{float:right;color:#333;font-size:15px;text-decoration: underline;}
+.login_l p a:hover{color:#FD4F4F;}
+#loginBtn{border-radius:3px;width:270px;padding:5px 0;border:none;background:#FD4F4F;text-align:center;color:white;font-size:19px;margin-left:14px;}
+.login_r{width:200px;border-left:1px solid grey;height:200px;}
+.login_r p{width:200px;text-align:center;color:#333;}
+.login_r span{display:block;margin-top:10px;}
+.login_r a:nth-child(1){
+	margin:0 12px 0 23px;
+	
+
+}
+.login_r div{width: 110px;height:1px;position:absolute;right: 42px;top:0px;background:white; box-shadow: 0 0 3px red;animation:e 5s linear infinite;transform:translateY(0px);
+}
+
+@keyframes e{
+	0%{transform:translateY(0px)}
+	25%{transform:translateY(55px)}
+	50%{transform: translateY(110px)}
+	75%{transform: translateY(55px)}
+	100%{transform:translateY(0px)}
+	
+	
+}
+.login_r a:nth-child(2){margin:0 12px 0 0;}
+#alert{width:320px;height:55px;line-height:55px;color:#e84b39;/*font-weight:bolder;*/padding-left:10px;position:absolute;bottom:20px;/*position:absolute;top:120px;left:120px;background: white;border:1px solid #ccc;border-radius:3px;*/}
+#alert img{position:absolute;top:15px;left:15px;}
+.login_content{width:530px;height:230px;margin-top:40px;position:absolute;top:20px;}

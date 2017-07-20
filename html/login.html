@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		
+		
+	</head>
+	<body>
+		<!------------头部导航栏------->
+			<header  style="z-index: 999;">
+				<div class="top_left fl"><!--左边导航-->
+					<ul>
+						<li  class="meishi_logo"><a href="../index.html" title="美食天下"><img src="../image/image/logo.png"/><span>首页</span></a></li>
+						<li><a href="caipu_shouye.html" title="菜谱">菜谱</a></li>
+						<li><a href="shicai.html"title="食材">食材</a></li>
+						<li><a href="zhenxuan.html" title="珍选">珍选</a></li>
+						<li><a href="jiankang.html"title="健康">健康</a></li>
+						<li><a href="zhuanti.html"title="专题">专题</a></li>
+						<li><a href="shequ.html"title="社区">社区</a></li>
+						<li><a href="huati.html" title="话题">话题</a></li>
+						<li><a href="huodong.html" title="活动">活动</a></li>
+						<li><a href=""title="搜索">搜索</a></li>
+						<li class="sanjiao_sub">
+							<img src="../image/image/sanjiao.png"  width="10" height="40"/>
+							<div >
+								<p><a>烘焙</a></p>
+								<p><a>妈妈派</a></p>
+							</div>
+						   
+						</li>
+					</ul>
+				 
+				</div><!--左边导航结束-->
+				<!--右边导航-->
+				<div class="top_right fr">
+					<ul>
+						<li><a href="login.html">注册</a></li>
+						<li><a href="login.html">登录</a></li>
+						<li  class="qq"><a href="">QQ登录</a>
+							<div class="qq_sub">
+								<p><a href="">微博登录</a></p>
+								<p><a href="">微信登录</a></p>
+							</div>
+						
+						</li>
+						<li style="background: #59c3d1;" class="fabu""><a href="" class="fa">发布</a>
+							<div class="fabu_sub">
+								<p><a href="">发菜谱</a></p>
+								<p><a href="">发话题</a></p>
+								<p><a href="">发日志</a></p>
+							</div>
+						</li>
+						<li style="background: #ffa859;"  class="qiandao"><a href=""class="qa">签到有礼</a></li>
+						<li style="background: #fe5761" class="kehu"><a href="" class="ka"> 客户</a></li>
+					</ul>
+					
+					
+				</div>
+				<!--右边导航结束-->
+			</header>
+			<!--头部导航栏结束-->
+	
+			<!------------------------------中间部分------------------------------->
+	
+	
+	       
+       
+                 <div id="list" style="left:0px;" style="z-index:1;">
+             
+                     <a href="#" style="z-index: 4; display: block;" ><img src="../image/login/one.jpg"></a>
+                     <a href="#" style="z-index: 3; display: none;" ><img src="../image/login/two.jpg" ></a>
+                     <a href="#" style="z-index: 2; display: none;" ><img src="../image/login/three.jpg"></a>
+                 	<a href="#" style="z-index: 1; display: none;" ><img src="../image/login/four.jpg"></a>
+                     
+                 </div>
+                 <!---------登录注册-------------->
+               <div class="login_box">
+                  	<div class="login_title">
+               		    <a  id="zc_title" style="">注册</a>
+               		    <a id ="dl_title"style="color:white;background: rgba(0,0,0,0.5);">登录</a>
+               	    </div>
+               	    <!--注册页面-->
+               	    <div class="zc_content clearfix" id="zc_content"style="display:none;">
+               	    	<div class="zc_content_l fl">
+               	    		<p>欢迎使用第三方账号注册/登录美食天下</p>
+               	    		<div>
+               	    			<a href=""><img src="../image/login/qq.png"/><span>QQ</span></a>
+               	    		    <a ><img src="../image/login/wx.png"/><span>微信</span></a>
+               	    		    <a><img src="../image/login/wb.png"/><span>微博</span></a>
+               	    		</div>
+               	    	</div>
+               	    	<div class="zc_content_r fr">
+               	    		<i></i>
+               	    		<img src="../image/login/msc_app.png"/>
+               	    		<p>扫描二维码下载客户端</p>
+               	    		
+               	    	</div>
+               	    	
+               	    </div>
+               	    <!--登录页面-->
+               	    <div class="login_content clearfix" style="display:block;" id="login_content">
+               	    	<div class="login_l fl">
+               	    		<ul>
+               	    			
+               	    			<li><label for="">手机号/昵称 :&nbsp;</label><input type="text" id="tel" value=""id="username"/></li>
+               	    			<li><label for="">密&nbsp;&nbsp;码：</label><input type="password" id='pwd' value=""/></li>
+               	    			</ul>
+               	    			<p><input type="checkbox" /><label for="">下次自动登录</label>
+               	    				<a href="">忘记密码?</a>
+               	    			</p>
+               	    			<input type="button"value="登录" id="loginBtn"/>
+               	    		
+               	    		
+               	    	</div>
+               	    	<div class="login_r fr">
+               	    		<div></div>
+               	    		<img src="../image/login/msc_app.png" width="110" height="110"alt="" style="margin-left:48px;"/>
+               	    		<p>扫描二维码下载客户端</p>
+               	    		<span>
+               	    		<a href=""><img src="../image/login/qq.png"/></a>
+               	    		 <a href=""><img src="../image/login/wx.png"/></a>
+               	    		 <a href=""><img src="../image/login/wb.png"/></a>
+               	    		</span>
+               	    		
+               	    	</div>
+               	    	
+               	    </div>
+               	    <!------提示框------->
+               	  <div id="alert" style=""><!--<img src="../image/login/cw.png" alt="" />&nbsp;手机号/昵称不能为空--></div>
+               	    
+               	    
+               	
+               	
+               </div>
+       
+       
+   
+	        <!------------------------------------------>
+			
+		
+	</body>
+	
+</html>
+<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+
+	

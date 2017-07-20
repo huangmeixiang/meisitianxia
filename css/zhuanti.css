@@ -1,0 +1,79 @@
+
+.zhuanye  ul{
+	margin-left: 345px;
+	margin-top: 55px;
+	padding-bottom: 60px;
+}
+.zhuanye ul li{
+	float: left;
+}
+.zhuanye ul li a{
+	
+	
+	padding: 11px 13px;
+	color: #999999;
+	font-size: 14px;
+	border: 1px solid #EEEEEE;
+	background: #f8f8f8;
+	margin: 0 3px;
+}
+.zhuanye ul li a:hover{
+	background: #FF6767;
+	color: white;
+}
+.zhuanye ul li:nth-child(1) a{
+	background: #FF6767;
+	color: white;
+}
+/*菜单列表*/
+.menu_lb{
+	width: 990px;
+	height: auto;
+	
+}
+.menu_lb .menu_lb_tr{
+	width: 990px;
+	height: 300px;
+
+	
+
+}
+.menu_lb .menu_lb_tr ul li{
+	float: left;
+	width: 300px;
+	height: 300px;
+margin-right: 45px;
+margin-bottom: 5px;
+
+	
+}
+.menu_lb .menu_lb_tr ul li:last-child{margin: 0;}
+
+.menu_lb .menu_lb_tr ul li div a{ 
+	color: #333333;
+	text-align: center;
+	display: block;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	line-height: 40px;
+	
+
+	
+}
+
+.menu_lb .menu_lb_tr ul li div a span{
+	width: 300px;
+	height: 250px;
+	display: block;
+	
+	overflow: hidden;
+}
+.menu_lb .menu_lb_tr ul li div a span img{-moz-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;transition:all .5s ease-in-out;}
+.menu_lb_tr ul  li div a:hover{color: #FF6767; box-shadow:0 0 10px grey;}
+.menu_lb_tr ul  li div a:hover span img{
+	-webkit-transform:scale(1.1,1.1);-moz-transform:scale(1.1,1.1);-o-transform:scale(1.1,1.1);-ms-transform:scale(1.1,1.1);transform:scale(1.1,1.1
+}
+.menu_lb_tr ul  li div a:hover{color: #FF6767;}
+
+

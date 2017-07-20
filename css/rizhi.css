@@ -1,0 +1,168 @@
+.rizhi{
+	width: 990px;
+}
+.rizhi_left{width: 648px;margin-bottom:40px;}
+.rizhi_right{
+	width: 300px;
+}
+
+
+
+/*新闻内容-----------------*/
+.rizhi_content {
+	height:140px ;
+	width:648px ;
+	margin:15px 0;
+	border:1px solid white;
+	overflow: hidden;
+	box-sizing: border-box;
+
+
+
+	
+}.rizhi_content:hover{border:1px solid #FF6363;}
+.rizhi_content .rizhi_img{	margin-right: 20px;}
+.rizhi_content .rizhi_img a span{
+	width: 180px;
+	height: 137px;
+	display: block;
+	overflow: hidden;
+	/*border:1px solid red;*/
+}
+.rizhi_content .rizhi_img a img{
+	width: 180px;
+	height: 137px;
+
+}
+.rizhi_content .rizhi_img a:hover img{
+	transform: scale(1.1);
+}
+
+
+.rizhi_content .rizhi_wenzhan a{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	color: #333333;
+	font-size: 20px;
+
+	
+}
+.rizhi_content .rizhi_wenzhan a:hover{color: #FF6767; text-decoration: underline;}
+.rizhi_content .rizhi_wenzhan{width: 440px;height: 137px;}
+.rizhi_content .rizhi_wenzhan span{
+	display: block;
+	height: 22px;
+	line-height: 22px;
+}
+.rizhi_content  .rizhi_wenzhan span:nth-child(2){
+	font-size: 13px;
+	color: #999999;
+	/*margin-top: 10px;*/
+}
+.rizhi_content  .rizhi_wenzhan span:nth-child(3){
+	font-size:14px;
+	color: #666666;
+}
+/*------------------专题标题-----------*/
+.zhuanti_title{
+	height: 42px;
+	width: 300px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.zhuanti_title ul li{
+	float: left;
+	padding-bottom: 2px;
+	
+}
+.zhuanti_title_left ul li a{
+	display: block;
+	font-size: 20px;
+	margin-right: 20px;
+	height: 41px;
+	line-height: 41px;
+}
+.zhuanti_title .zhuanti_title_left li:nth-child(1) a{
+		color: #FF6767;
+	border-bottom: 2px solid #FF6767;
+}
+.zhuanti_title .zhuanti_title_left ul li a:hover{
+	color: #FF6767;
+	/*border-bottom: 2px solid #FF6767;*/
+	
+	
+	
+}
+.zhuanti_title .zhuanti_title_right ul li a{
+	height: 42px;
+	line-height: 42px;
+	font-size: 16px;
+	margin-left: 20px;
+	color: #333333;
+}
+.zhuanti_title .zhuanti_title_right ul li a:hover{
+	color: #FF6767;
+	
+}
+/*----------------专题内容--------*/
+.zhuanti_content{
+	width: 300px;
+	padding-top: 10px;
+}
+.zhuanti_content .zhuanti_content_fl a span{
+	width: 120px;
+	height: 90px;
+	display: block;
+	overflow: hidden;
+}
+
+.zhuanti_content .zhuanti_content_fl a img{
+	width: 120px;
+	height: 90px;
+}
+.zhuanti_content .zhuanti_content_fl a:hover img{transform: scale(1.1);}
+.zhuanti_content .zhuanti_content_fr {width: 160px;height: 90px; margin-left: 20px;}
+.zhuanti_content .zhuanti_content_fr ul li a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	color: #333333;
+	font-size: 14px;
+}
+.zhuanti_content .zhuanti_content_fr ul li a:hover{color: #FF6767; text-decoration: underline;}
+/*菜谱图片展示区*/
+.caipu_img{
+	overflow:hidden;
+}
+.caipu_img ul li{
+	width: 142px;
+	height: 110px;
+	float: left;
+	padding-top: 16px;
+	
+}
+.caipu_img ul li:nth-child(1){margin-right: 16px;}
+.caipu_img ul li a span{
+	display: block;
+	width: 140px;
+	height: 106px;
+	overflow: hidden;
+}
+.caipu_img ul li a img{
+	width: 140px;
+	height: 106px;
+}
+.caipu_img ul li a:hover img{transform: scale(1.1);}
+/*菜名----------------------*/
+.caipu_menu{width: 300px;overflow: hidden; padding-top: 5px; }
+.caipu_menu ul{overflow: hidden;}
+.caipu_menu ul li{float: left;margin-right: 18px;}
+.caipu_menu ul li a{
+	display: block;
+	font-size: 14px;
+	height: 26px;
+	line-height: 26px;
+	color: #333333;
+	
+}
+.caipu_menu ul li a:hover{color: #FF6767;text-decoration: underline;}

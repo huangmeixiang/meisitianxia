@@ -1,0 +1,67 @@
+/*返回按钮*/
+    #top{position:fixed;right:100px;bottom:50px; width:58px; height:58px; background:url(../image/meishi/top.png) no-repeat; background-size: 100%;}
+.zhuanye{
+	overflow:hidden;
+	
+}
+.zhuanye  ul{
+	float: right;
+	/*margin-top: 55px;*/
+	padding-bottom: 60px;
+	padding-right:20px ;
+	padding: 15px 0;
+}
+.zhuanye ul li{
+	float: left;
+}
+.zhuanye ul li a{
+	
+	
+	padding: 11px 13px;
+	color: #999999;
+	font-size: 14px;
+	border: 1px solid #EEEEEE;
+	background: #f8f8f8;
+	margin: 0 3px;
+}
+.zhuanye ul li a:hover{
+	background: #FF6767;
+	color: white;
+}
+.zhuanye ul li:nth-child(1) a{
+	background: #FF6767;
+	color: white;
+}
+/*话题按钮*/
+.huati_anniu a{width: 300px;height: 44px;line-height: 44px;font-size: 20px;
+display: block;text-align: center;background: #F8F8F8;border-radius: 10px;color: #FF6767;margin-top:8px;}
+.huati_anniu a:hover{color: white; background: #FF6767;}
+/*------------------------------*/
+.huati_content ul li{
+	
+	width:648px ;
+	height:200px;
+
+
+	margin-top: 20px;
+	font-size: 15px;
+	
+	padding-bottom: 6px;
+
+}
+/*爱心*/
+.huati_content ul li p a i{
+  /*display:inline-block;*/
+ display:none;
+	width:40px;
+	height:40px;
+
+	background: rgba(0,0,0,0) url(http://static.meishichina.com/v6/img/pai/bts.png) no-repeat scroll 0 0;
+	
+	position:absolute;
+	top:30px;
+	margin-left:10px;
+}
+.huati_content ul li:hover .pinglun{display: block;}
+.huati_content ul li:hover p a i{display:inline-block;}
+.huati_content ul li:hover p a i:hover{background-position:0 -40px;}
